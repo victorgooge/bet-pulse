@@ -1,0 +1,16 @@
+{
+  "name": "betpulse",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:mobile": "npm --workspace apps/mobile run dev",
+    "dev:api": "npm --workspace apps/api run dev",
+    "lint": "npm run -ws lint",
+    "test": "npm run -ws test",
+    "typecheck": "npm run -ws typecheck"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@betpulse/api",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "lint": "echo 'Add api lint config'",
+    "test": "echo 'Add api tests'",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  }
+}
